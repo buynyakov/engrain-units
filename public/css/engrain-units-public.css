@@ -1,0 +1,55 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.X{
+  margin: auto;
+  padding: 1% 2%;
+  max-width: 1440px;
+  border-radius: 5px;
+  
+}
+
+li{
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+.SG{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.SG .sgLi{
+  min-width: 24%;
+  margin: 2% .35%;
+  display: inline-flex;
+  box-shadow: 0 2px 4px rgba(0,0,0, .2);
+}
+.SG .sgLi:hover{
+  box-shadow:0 5px 10px rgba(0,0,0,.15);}
+.SG .box{
+  width: 100%;
+  padding: 0;
+  background: #fff;
+  min-height: 200px;
+  max-height: 220px;
+  box-sizing: border-box;
+}
+.SG .box div{
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    background: rgba(0,0,0,.08);
+    border-radius: 5px;
+  }
+
+
+/* responsive grid*/
+@media (max-width: 970px){
+  .SG .sgLi{width: 180px;}}
+@media (max-width: 425px){
+  .SG .sgLi{width: 100%;}
+}
